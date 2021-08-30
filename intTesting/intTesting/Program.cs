@@ -33,6 +33,18 @@ namespace intTesting
             double dIDiv = d1 / num1;
             Console.WriteLine("d1/num1 is: " + dIDiv);
 
+            //strings
+            string myname = "nico";
+
+            string message = "my name is " + myname;
+
+            //string capsMessage = message.ToUpper();
+
+            string lowerCaseMessage = message.ToLower();
+
+
+            Console.WriteLine(lowerCaseMessage);
+
             Console.Read();
         }
     }
