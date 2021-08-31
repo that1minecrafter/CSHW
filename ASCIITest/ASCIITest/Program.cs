@@ -14,6 +14,7 @@ namespace ASCIITest
             int asciiValue = Console.Read();
             Console.WriteLine("ASCII value is {0}:", asciiValue);
             Console.ReadKey();
+
         }
     }
 }
